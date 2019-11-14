@@ -1,10 +1,19 @@
 <template>
   <div id="app">
+   <header class="hero is-primary">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link> 
+       
     </div>
     <router-view/>
+    </header>
+     <main class="container">
+  
+  
+    </main>
+    <footer>
+        <p>&copy; 2019 - Cepegra</p>
+    </footer>
   </div>
 </template>
 
