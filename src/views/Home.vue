@@ -35,7 +35,6 @@
 
 <script>
     import Gares from '@/services/RailService.js'
-
     export default {
       created(){
      

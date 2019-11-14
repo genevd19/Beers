@@ -4,6 +4,7 @@
    <div class="container">
    <h1 class="title"> Gare de {{ gare.name}}</h1>
    {{ gare.id }}   <hr>
+   <button class="button " @click="addFav(gare.id)">Ajouter aux favoris</button><br>
    {{ trains }}
   
 </div> 
